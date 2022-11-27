@@ -22,7 +22,7 @@ int main()
     fscanf(arquivo, "%i", &n_Ruas);
     printf("Numero de ruas: %d \n", n_Ruas);
 
-    vetor = (Rua*) (calloc(n_Ruas, sizeof(int)));
+    vetor = (Rua*) (calloc(n_Ruas, sizeof(Rua)));
 
     for(int j=0; j<3; j++)
     {
